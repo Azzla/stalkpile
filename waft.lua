@@ -17,10 +17,10 @@ function Waft:splat(text, _props)
 	{
 		duration	= props.duration	or 1,
 		color		= props.color		or { 1,1,1,1 },
-		x 			= props.x			or love.math.random(0, love.graphics.getWidth()),
-		y 			= props.y			or love.math.random(0, love.graphics.getHeight()),
-		dx 			= props.dx			or random_dir(), --random value between -100 and 100
-		dy 			= props.dy			or random_dir(), --random value between -100 and 100
+		x 		= props.x		or love.math.random(0, love.graphics.getWidth()),
+		y 		= props.y		or love.math.random(0, love.graphics.getHeight()),
+		dx 		= props.dx		or random_dir(), --random value between -100 and 100
+		dy 		= props.dy		or random_dir(), --random value between -100 and 100
 		rotation	= props.rotation	or 0,
 		scale		= props.scale		or 1,
 		fade		= props.fade		or { _in = _in, _out = _out}, --_in = start of the fadeout; _out = end of the fadeout.
