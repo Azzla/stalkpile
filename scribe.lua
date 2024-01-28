@@ -26,8 +26,8 @@ function Scribe:write(text, _props)
 		delay		= props.delay 		or 0.1, --time in seconds between each char rendering.
 		linger		= props.linger 		or 1, 	--time in seconds of how long the prompt remains after the last char is added.
 		color		= props.color 		or { 1,1,1,1 },
-		x 			= props.x 			or 0,
-		y 			= props.y 			or 0,
+		x 		= props.x 		or 0,
+		y 		= props.y 		or 0,
 		rotation	= props.rotation	or 0,
 		width 		= props.width 		or love.graphics.getWidth(),
 		justify 	= props.justify 	or 'left',
