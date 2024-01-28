@@ -6,16 +6,16 @@ function love.load()
 	love.graphics.setDefaultFilter('nearest')
 	local pixel_font = love.graphics.newFont('pixel.ttf', 16)
 
-		--duration	1,
-		--color		{ 1,1,1,1 },
-		--x 		love.math.random(0, love.graphics.getWidth()),
-		--y 		love.math.random(0, love.graphics.getHeight()),
-		--dx 		--random value between -100 and 100
-		--dy 		--random value between -100 and 100
-		--rotation	0,
-		--scale		1,
-		--fade		{ _in = 0.5, _out = 1}, --start of the fadeout, end of the fadeout.
-		--font		love.graphics.getFont()
+	--duration	1,
+	--color		{ 1,1,1,1 },
+	--x 		love.math.random(0, love.graphics.getWidth()),
+	--y 		love.math.random(0, love.graphics.getHeight()),
+	--dx 		--random value between -100 and 100
+	--dy 		--random value between -100 and 100
+	--rotation	0,
+	--scale		1,
+	--fade		{ _in = 0.5, _out = 1}, --start of the fadeout, end of the fadeout.
+	--font		love.graphics.getFont()
 
 	--Every .25 seconds, spawn a popup. See Timer.lua for reference.
 	Timer:every(0.25, function()
