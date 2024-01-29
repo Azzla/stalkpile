@@ -18,7 +18,6 @@ function love.load()
 	--	scale		= 1
 	-- 	sounds		= {}
 	--	font		= love.graphics.getFont()
-	--	custom		= nil
 
 	---- Scroll-Specific:
 	--
