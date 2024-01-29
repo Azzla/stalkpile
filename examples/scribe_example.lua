@@ -11,8 +11,8 @@ function love.load()
 	-- 	delay		= 0.1
 	--	linger		= 1
 	-- 	color		= { 1,1,1,1 }
-	-- 	x 			= 0
-	-- 	y 			= 0
+	-- 	x 		= 0
+	-- 	y 		= 0
 	-- 	width 		= love.graphics.getWidth()
 	-- 	justify 	= 'left'
 	--	scale		= 1
@@ -22,8 +22,8 @@ function love.load()
 
 	---- Scroll-Specific:
 	--
-	--	wait			= 1
-	--	speed			= <delay>
+	--	wait		= 1
+	--	speed		= <delay>
 	--	scroll_sounds 	= false
 
 	--All properties are optional.
@@ -32,7 +32,7 @@ function love.load()
 		delay		= 0.15,
 		linger		= 5,
 		color		= {1,0,1,1},
-		y 			= love.graphics.getHeight()/3,
+		y 		= love.graphics.getHeight()/3,
 		scale 		= 5,
 		justify		= 'center',
 		font 		= pixel_font,
